@@ -1,0 +1,15 @@
+Project Lead activity
+	->	Agaile scrum
+	->	Requirement discussion with client
+	->	Preparing user story based on the discussion
+	->	Task Allocation base on dusiness knowledge and technical knowledge
+	->	Genrally asigning high level takk to me -> Design level, framework level, issues in developement (Discuss this points with team and come to conclusion)
+	->	Daily standup to discuss about taks allocation status
+	->	Evening meeting to discuss about status
+	->	individual discussion of requirment discussion if required.
+	->	Scheduling, estimation
+	->	SDLC
+
+i have 13 years experience in sysveda information technology
+predominantly worked in capital market and java spring hibernate and spring boot
+good business experience in equity, asset management and corporate action management and swift messages.

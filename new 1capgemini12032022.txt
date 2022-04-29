@@ -1,0 +1,10 @@
+String str = "Muthukrishnan had a house named as Muthukrishnan";
+
+String sarray[] = str.split(,);
+count =0;
+for (i=1;i<=sarray.length;i++) {
+if (strarray.get(i) = "Muthukrishnan") {
+count = count +1;
+}
+System.out.pringln(" Count of Muthukrishnan is "+count);
+}

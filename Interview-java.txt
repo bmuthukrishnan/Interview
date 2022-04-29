@@ -1,0 +1,91 @@
+1. how to make read only array list - Collecoions. unmodifiablelist
+1.1 - bubble sort, fibonaci
+2. End point in RESTful appi
+3. difference between fecth and pull in git -  
+	Fetch will get the updated details only
+	Pull will get the full resource from repositary
+4. reduse - elastice ***
+5. Spring boot design paterns
+6. SOLID principal
+	Single Responsibility Principle (SRP)
+	Open-Closed Principle (OCP)
+	Liskov Substitution Principle (LSP)
+	Interface Segregation Principle (ISP)
+	Dependency Inversion Principle (DIP)
+7. Functional interfaces in java 8 - Predicate, consumer, suplier
+8. swagger - documentation API. Interface decsription language for describing REST API 
+9. joins in oracle
+10. Spring security implimentation in jave spring boot
+11. Final arraylist - can add data in the list and not able to modify the data in the list.
+12. when ConcurrentModificationException exception java occured - modify the collection when some thread is iterating over it. during that time ConcurrentModificationException will occure
+13. why function interface dont accept only one abstract method- because it is used in lmbda expression.
+14. stream API - ******
+15. difference between meta space and prime gen menory - meta space is introduced in java 8
+16. design paterns - 
+     Singletone 
+	 prototype
+	 factory -  hibernate (load)
+	 bridge
+17. Issues faces in previous projects **************
+	Define requirement clearly. some un nexpected changes received after requirement discussion. last minit changes
+	Integrating third-party or other custom applications
+	adiquate testting is required before deployment.
+	
+18. challenges faced in previous project  ***********
+	system security is one of the challenge. it is the responsibility of all stake holder not only software engineere.
+	addopting new technologies is one of the challenges
+	time limitation
+	Data preparation 
+	Unclear of requirements
+19. REST API
+20. Design ptern in hibernate
+	Proxy patern - used fro lazy loading
+	Factory patern - Session factory
+21. Hibernate validator framework.
+	Validator used in jave script for presentation layer before processing server side
+	It is a cross cutting task so it should be keep away from busuiness logic.
+22. First level and second level cache in hibernate
+	first level - in session level. it is enabled by default. single threaded short living. thread safe
+	second level - it is session factory level. buy default it is false. it needs to be enabled if required. imutable shared by all sessions. not thread safe
+23. sorted and ordered collection in Hibernate
+	sorted collection - by using collection.sort
+	ordered collection - by using order by clause indatabase itself
+24. difference between transient, persistant, ditached
+	Tranient - New object created without interacting with hibernate session
+	Persistant - Object associated with hibernate session. save, saveorupdate, persist
+	detached - detached state with hibernate session. detach, close,
+25. dirty check
+	Dirty check is changes or update the field which requires action, rest of the fields are untuchable
+26. Lazy loading - where the object are loaded as needed.
+27. SEssionFactory = sessionfactory.configuration.configure.buildsessionfactory
+	SEssion session = factory.openSession
+	Transaction tx = session.beginTransactoin
+28. Hibernate validator - @NotNull, @NotEmpty, @Null, @max(Value =), @min(Value=), @Size
+	
+
+REST API
+@RestController
+@RequestMapping
+@RequestBody
+@GetMapping
+@PostMapping
+@PutMapping
+@PathVariable -> URI user/{id}
+sql queries -> URL http://localhost:app/user?=muthu
+Spring mvc ->
+			Request -> DispatcherServlet ->
+											-> HandlerMapping
+											-> Controller <-> Model and View
+											-> ViewResolver
+											-> View
+Spring Batch
+Job Scgeduler -> Job Launcher -> Job -> steps 
+										-> ItemReader
+										-> ItemProcesser
+										-> ItemWriter
+Launcher - > Configuring class -> (FeedFile Generation)
+								Reader - from data base base on mapping
+								Processor - Processing the data and manupulate and update if required
+								Writer - Write the date in to database
+Spring boot
+@SpringBootApplication - > @Configuration, @EnableAutoConfiguration, and @ComponentScan

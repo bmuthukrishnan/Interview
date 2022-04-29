@@ -1,0 +1,19 @@
+0, 1, 1, 2, 3,5, 8, 
+10, 
+
+public void fib(int limit) {
+int value =0;
+	System.out.prinln("The Fibonaci series is "+ value);
+for (int i=1; i<=10;) {
+	int preval = value;
+	preval =i;
+	value = value + preval;
+	i = value;
+	System.out.prinln(value);
+	}
+}
+
+
+List<Employee> newlist = list.stream()
+.filter(p -> p.getsalary() > 50000)
+.toList(newlist)
