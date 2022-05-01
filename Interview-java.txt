@@ -89,3 +89,5 @@ Launcher - > Configuring class -> (FeedFile Generation)
 								Writer - Write the date in to database
 Spring boot
 @SpringBootApplication - > @Configuration, @EnableAutoConfiguration, and @ComponentScan
+
+https://github.com/Java-Hub18/Online_Grocery_Store/tree/master/General_Stores
