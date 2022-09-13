@@ -1,0 +1,47 @@
+SELECT e.employeeid, e.salary FROM employee e
+WHERE 5 - 1 = (SELECT COUNT(DISTINCT salary) FROM employee e1 
+WHERE e.salary > e1.salary;
+
+wright query for employee and depertment inner join primary key.
+
+joins in oracle - inner join, left outer join, right outer join, full outer join
+
+select * from (select e.employeeid, e.firstname, e.lastname, e.salary, dense_rank() 
+over (order by e.salary asc) as rankval from employee e)emp where rankval = 8
+
+9. joins in oracle [Inner join, Lift (outer) join, Right (outer) join, Full (outer) join ]
+9.1 Query to find 6th highest salary in the employee.
+9.2 What is index and purpose of index in oracle.
+
+Hibernate:
+
+20. Design patern in hibernate
+	Proxy patern - used fro lazy loading
+	Factory patern - Session factory
+21. Hibernate validator framework.
+	Validator used in jave script for presentation layer before processing server side
+	It is a cross cutting task so it should be keep away from busuiness logic.
+22. First level and second level cache in hibernate
+	first level - in session level. it is enabled by default. single threaded short living. thread safe
+	second level - it is session factory level. buy default it is false. it needs to be enabled if required. 
+	imutable shared by all sessions. not thread safe
+23. sorted and ordered collection in Hibernate
+	sorted collection - by using collection.sort
+	ordered collection - by using order by clause in database itself
+24. difference between transient, persistant, ditached
+	Tranient - New object created without interacting with hibernate session
+	Persistant - Object associated with hibernate session. save, saveorupdate, persist
+	detached - detached state with hibernate session. detach, close,
+25. dirty check
+	Dirty check is changes or update the field which requires action, rest of the fields are untuchable
+26. Lazy loading - where the object are loaded as needed.
+27. SEssionFactory = sessionfactory.configuration.configure.buildsessionfactory
+	SEssion session = factory.openSession
+	Transaction tx = session.beginTransactoin
+28. Hibernate validator - @NotNull, @NotEmpty, @Null, @max(Value =), @min(Value=), @Size
+16. design paterns - 
+     Singletone - used for datebase connection, file close
+	 prototype 
+	 proxy -  hibernate (lazy load)
+	 factory - SessionFactory
+	 bridge

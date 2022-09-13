@@ -1,0 +1,84 @@
+1. Difference between JRE, JDK and JVM
+2. Class Loaders in java [Botstrap loader, Extension class loader, System loader]
+3. Access specifiers
+4. Purpose of static method and static variables in java, is it possible to make class static
+5. Difference between overloading and overriding with examples
+5.1 What is Wrapper class
+Checked exception and unchecked exception
+Which class contains the clone method? Cloneable or Object? - Object
+Which one will take more memory, an int or Integer?
+5.2 What are the collection used in java. Difference between vector and arraylist, Hashtable and HashMap
+5.3 Difference between equal and == 
+6. Final classes in java, how to make immutable class in java.
+	[Declare class as final, all variable as final and private, no setter methods, only getter method
+	A parameterized constructor should initialize all the fields performing a deep copy]
+5. What are the Memory Allocations available in Java?
+5.1 Java has five significant types of memory allocations.
+	Class Memory, Heap Memory, Stack Memory, Program Counter-Memory, Native Method Stack Memory
+5.2 What are the observer and observable classes?
+6 Which among String or String Buffer should be preferred when there are lot of updates required to be done in the data?
+7. dynamic binding and static binding
+8. Abstract and interface difference, when to use interface and whe you use abstract class
+9. what is marker interfaces add examples. serializable, clonable.
+9.1. Failfast and failsafe
+9.2. ConcurrentHashMap and HashMap difference
+10. Exception, type of exception, how to create user defined exceptions, exception probagation. Write a progrem for user defined exception
+11. Finally and try catch
+11.1 What will happen if you put the return statement or System.exit() on the try or catch block? Will finally block execute?
+12. throw and throws difference
+13. String[immutable, thread safe, not synchronoized], StringBuffer[mutable,synchronized], StringBuilder[mutable, not synchronized] difference. litral
+14. Serialization - Java object in to byte stream, uses, purpose
+14.1 Difference between volatile[Used in multithreaded environment, stored in main memory] and transient[In serialization] keywords in Java
+15. Design Paterns used , singletone , Factory, Proxy, Strategy, Observer
+15.2. Single tone - Private constructor, private static instanece variable, public static method to return instance class with global access 
+15.1 Reason Why Wait, Notify, and NotifyAll are in Object Class not in thread.
+16. Memory management - > Memory Leak, reference type in java
+17. is it possibleto make array list final. what is the use of that. 
+18. what are the sorting algorithn, program for sorting [23,534,23,6,2,4,9,43,67]
+18.1 How to sort the list of objects in, comparable (CompareTo) - single sort of execution and comparator (Compare) - Multiple sort of execution
+18.2 What are the functional interfaces available in java - runnable, comparable, callable, - consumer, predicate, supplier, function
+19. Features of java 8. - 
+	[Stream API, Functional Interfaces, Lambda Expression, static and default method in interface, optional class,I/O and JDBC enhancement]
+20. Memory areas used in java 8.
+20.1 Explain about Sequential stream and parallel stream
+21. Functional interface , write some sample code for functional interfaces.
+22. Optional class
+23. Stream API -> Employee object to filter employee salary >15000
+	- Filter the name list with id >25
+	- filter the employee object list with sal >15000
+	- Object with sorting order
+	- employee list, it contains, employee id, name, age, sal,address etc,
+	want to get the employee age and employee count  with same age. ex : 18,2; 45,3
+24. Intermediat operation and terminal operation in lamda expression
+25. Threading life cycle -> New -> Active[Runnable, Running], Waiting, TimeWaiting, dead.
+26. Difference between executerService.execute() and executor.execute()
+	Both submit() and execute() methods are used to submit a task to the Executor framework for asynchronous execution.
+	submit() and execute() are from the ExecutorService interface because it also extends the Executor interface which declares the execute() method.
+submit()
+	ExecuterService.submit()can return the result of computation because it has a return type of Future.
+	the submit() method is defined in the ExecutorService interface which is a sub-interface of Executor
+	The submit() can accept both Runnable and Callable tasks but execute() can only accept the Runnable task
+	Submit can accept both Runnable and Callable for computation.
+	submut is diclared in ExecuterService interface.
+execute()
+	execute() method cannot return anything because's return type is void.
+	Execude() only accept runnable
+	execute is declared in executeor interface
+26.1 What is object level lock and class level lock
+27. Functional interfaces -> 4 category. 
+	1. Supplier 
+	2. Consumer/BiConsumer
+	3. Predicate/BIPredicate
+	4. Function/BiFunction/UnarryOperator/BinaryOpertator.
+
+28. Swallow copy and deep copy
+Swallow	- whenever we use default implementation of clone method we get shallow copy of object means it 
+	creates new instance and copies all the field of object to that new instance and returns it as object type, 
+	we need to explicitly cast it back to our original object
+Deep - Whenever we need own copy not to use default implementation we call it as deep copy, 
+whenever we need deep copy of the object we need to implement according to our need.
+	ABC obj1 = new ABC();
+1. Creating a copy of object in a different memory location. This is called a Deep copy.
+
+2. Creating a new reference that points to the same memory location. This is also called a Shallow copy.
+  

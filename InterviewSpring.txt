@@ -1,0 +1,20 @@
+1. What are the modules worked in spring - Core, DataAccess. AOP, Messaging, JDBC, MVC
+2. What is IOC and dependency injuction
+3. Bean scope available in spring
+3.1 Spring MVC
+4. Autowiring, How to avoid conflict in autowiring @Qualifier some examples
+	Inject the deplendencey implicitly
+5. Annotation used in Spring boot
+6. What is component scan
+7. Difference between @RestController and Controller
+8. Difference between @PathVariable() and @RequestParam()
+	RequestParam - http://localhost:8080/spring-mvc-basics/api/foos?id=abc
+	PathVariable - @GetMapping("/foos/{id}")
+9. Actuator and its purpose
+10. Some thing about spring security, how to achieve spring security at code level.
+11. What are the advantages when we use spring boot.
+12. what is the use of profiles in spring boot
+13. Annotations used in spring boot @ComponentScan, @Configuration, @EnableAutoConfiguration
+14. Spring Security
+What is the use of @Valid annotation in Spring MVC?
+What’s the Difference Between @Controller, @Component, @Repository, and @Service Annotations in Spring?

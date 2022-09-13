@@ -1,0 +1,12 @@
+1st round Java Technical First round 
+a) How do u identify memory leaks and how do u solve it. 
+b) How do you take Thread dump in java. 
+c) How to remove duplicate value from ArrayList 
+d) What version you use for Java & Weblogic & Database 
+e) Have u used any joins & procedure, do u do query optimizations 2nd round With VP 
+a) How do you track project, project management tool b) About SDLC methodology 
+c) Draw System architecture diagram on which i have worked on 
+d) How to you identify if any project is running out of time and what steps are taken 
+e) How do you handle non performing resource (either he is coming late or not giving output) 
+f) What if some high priority task comes suddenly and how do you have both the stake holders 
+g) What is my role during the software development process (during coding) with the team.

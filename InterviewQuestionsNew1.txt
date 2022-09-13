@@ -1,0 +1,17 @@
+1. What’s wrong with using HashMaps in a multi-threaded environment? When does a get() method go into an infinite loop
+	- One example of this is a Map that contains configuration properties. 
+	The real problem starts when at least one of those threads is updating the HashMap, i.e. adding, changing, or removing any key-value pair
+2. Does not overriding a hashCode() method have any performance implication
+3. Do all properties of immutable objects need to be final
+	- Not necessarily. As stated above, you can achieve the same functionality by making members 
+	non-final but private — and not modifying them except in constructors.
+	- Don't provide a setter method for them, and if it is a mutable object, then don't ever leak any reference to that member.
+	- Remember, making a reference variable final only ensures that it will not be reassigned a different value, 
+	but you can still change individual properties of an object pointed by that reference variable.
+4. How does a substring () inside a String work
+	- Many developers know the answer: “A substring creates a new object out of the source string by taking a portion of original string.”
+	- This question was mainly asked to see if the developer is familiar with the risk of memory leaks that substrings can create
+5. Can you write critical section code for a singleton
+	- This core Java question is a follow-up of the previous question and expects 
+	the candidate to write a Java singleton using the Double-Checked Locking Pattern.
+	- Remember to use a volatile variable to make Singleton thread-safe.

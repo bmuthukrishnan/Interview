@@ -1,0 +1,26 @@
+1. Involved in Requirement, analysis, design , developmnt and testing
+2. Completley following in SDLC.
+3. Involved in all phaces of SDLC life cycle.
+3.1 Worked 70% in coding and 30 % in management side.
+3.2 Predominantly Working in backend services side.
+4. Majorly worked in java, spring hibernate and spring boot oracle with backend developer.
+5. Handson experience framewok 
+6. usecase design
+7. Involved in code review, efective use of design patern, reusability of utility codes [Code optimization, memory leake]
+8. Identifying and fixing root cause for production issues
+9. Improving application with current business needs.
+
+Wells Fargo JD
+Relevant experience of fullstack development experience- Angular experience utilizing version 6 or higher
+Relevant years of Java development experience
+Relevant years of Oracle experience in designing, coding and delivering database applications 
+Relevant years of experience with Oracle, PL/SQL
+Expert knowledge and considerable development experience with at least two or more of the following: Java, HTML, AJAX, JavaScript or other web development languages or standards
+Strong understanding of object-oriented design and how to implement your designs in Java
+Ability to build web applications including graphic elements, overall organization and navigational structure, layout, development, usability of web pages and forms for ease-of-use
+Advanced knowledge of common design patterns and when they should be used
+Experience in writing and debugging complex PL/SQL Stored Procedures
+Excellent troubleshooting and debugging skills
+Analyze a feature story and design a robust solution for it and create specs for complex business rules and calculations
+Ability to understand business problems and articulate a corresponding solution
+Excellent verbal, written, and interpersonal communication skills

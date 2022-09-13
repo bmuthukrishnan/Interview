@@ -1,0 +1,44 @@
+REST  Template - is used to create application that consume RESTFull web services 
+	- exchange() method is used to consume the web services
+	- Autowired the Rest Template Object.
+	- Use HttpHeaders to set the Request Headers.
+	- Use HttpEntity to wrap the request object.
+	- Provide the URL, HttpMethod, and Return type for Exchange() method.
+	- getForObject, getForEntity
+1. What are the HTTP status code available in rest - 1xx,2xx,3xx, 4xx, 5xx
+2. Method used in REST API - GET, POST, PUT, DELETE, PATCH, OPTION
+3. Disadvantages of using REST - > not possible to maintane session and security
+4. What are the difference between REST and SOAP - > 
+5. Formates supported in REST -> JSON, 	XML, MIME, TEXT and SOPA -> XML
+6. What are Idempotent methods- 
+7. Difference between put and post - >
+	- GET, PUT,DELETE,  -> Insert and update resources ,  PUT /users/{user-id}, Idempotent
+	- POST -> Insert resources POST /users, Not idempotent
+8. REST Template
+can we send payload in get request -  yes but, no use.
+Mocking REST API - Response resolver (req, res, ctx)
+Swagger UI example instead of postman- https://www.youtube.com/watch?v=oJSFdqE7Tpo
+https://github.com/dpgupta1989/RestAPIDemo
+REST API
+@RestController
+@RequestMapping
+@RequestBody
+@GetMapping
+@PostMapping
+@PutMapping
+@PathVariable -> URI user/{id}
+sql queries -> URL http://localhost:app/method?user=muthu
+	RequestParam - http://localhost:8080/spring-mvc-basics/api/foos?id=abc
+	PathVariable - @GetMapping("/foos/{id}"),
+	@RequestMapping("/user/{id}")
+	public String handleRequest(@PathVariable("id") String userId, Model map) {}
+What are the differences between PUT and POST in REST?
+How to make REST call to access all the fields in a object.
+REST API Versioning - 
+	URI Path, Query Params, Header, Integrating Types
+REST API - 
+	1xx: Informational – Communicates transfer protocol-level information.
+	2xx: Success – Indicates that the client’s request was accepted successfully.
+	3xx: Redirection – Indicates that the client must take some additional action in order to complete their request.
+	4xx: Client Error – This category of error status codes points the finger at clients.
+	5xx: Server Error – The server takes responsibility for these error status codes.
